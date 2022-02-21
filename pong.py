@@ -115,9 +115,9 @@ screen = pygame.display.set_mode((v.screen_width,v.screen_height))
 pygame.display.set_caption('Pong by HD')
 
 #fonts
-small_font = pygame.font.Font("env\Lib\site-packages\pygame\Montserrat-Regular.ttf",16) #small 16
-medium_font = pygame.font.Font("env\Lib\site-packages\pygame\Montserrat-Regular.ttf",30) #medium 30
-large_font = pygame.font.Font("env\Lib\site-packages\pygame\Montserrat-Regular.ttf",80) #large 80
+small_font = pygame.font.Font("assets\Montserrat-Regular.ttf",16) #small 16
+medium_font = pygame.font.Font("assets\Montserrat-Regular.ttf",30) #medium 30
+large_font = pygame.font.Font("assets\Montserrat-Regular.ttf",80) #large 80
 
 #start page
 def startpage():
